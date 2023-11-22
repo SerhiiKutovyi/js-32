@@ -8,12 +8,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github/SerhiiKutovyi/JS-32"
+    "url": "git+https://github.com/SerhiiKutovyi/js-32.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/SerhiiKutovyi/JS-32/issues"
+    "url": "https://github.com/SerhiiKutovyi/js-32/issues"
   },
-  "homepage": "https://github.com/SerhiiKutovyi/JS-32#readme"
+  "homepage": "https://github.com/SerhiiKutovyi/js-32#readme"
 }
