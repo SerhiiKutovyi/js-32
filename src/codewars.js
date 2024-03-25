@@ -62,8 +62,10 @@
 
 // console.log(quarterOf(3));
 
-function calculateTotalPrice(orderedQuantity, pricePerItem) {
-  return orderedQuantity * pricePerItem;
+function checkPassword(password) {
+  const correctPassword = 'jqueryismyjam';
+  return correctPassword === password ? 'Access granted' :  'Access denied, wrong password!';
 }
 
-console.log(calculateTotalPrice(5, 100));
+console.log(checkPassword('angul4r1sl1f3'));
+console.log(checkPassword('jqueryismyjam'));
