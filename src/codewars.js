@@ -68,11 +68,11 @@
 //   case 'apple':
 //     console.log('Apple selected');
 //     break;
-  
+
 //   case 'banana':
 //     console.log('Banana selected');
 //     break;
-  
+
 //   case 'orange':
 //     console.log('Orange selected');
 //     break;
@@ -80,3 +80,22 @@
 //     console.log('Non');
 // }
 
+const getSubscriptionPrice = type => {
+  let count;
+  switch (type) {
+    case 'started':
+      count = 0;
+      break;
+    case 'professional':
+      count = 20;
+      break;
+    case 'organization':
+      count = 50;
+      break;
+    default:
+      count = 'Invalid subscription type!';
+    }
+   return count;
+};
+
+console.log(getSubscriptionPrice('started'));
