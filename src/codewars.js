@@ -62,10 +62,21 @@
 
 // console.log(quarterOf(3));
 
-function checkPassword(password) {
-  const correctPassword = 'jqueryismyjam';
-  return correctPassword === password ? 'Access granted' :  'Access denied, wrong password!';
-}
+// const fruit = 'banana';
 
-console.log(checkPassword('angul4r1sl1f3'));
-console.log(checkPassword('jqueryismyjam'));
+// switch (fruit) {
+//   case 'apple':
+//     console.log('Apple selected');
+//     break;
+  
+//   case 'banana':
+//     console.log('Banana selected');
+//     break;
+  
+//   case 'orange':
+//     console.log('Orange selected');
+//     break;
+//   default:
+//     console.log('Non');
+// }
+
