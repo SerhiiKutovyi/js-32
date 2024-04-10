@@ -99,12 +99,62 @@
 // };
 
 // console.log(getSubscriptionPrice('started'));
-function isNumberInRange(start, end, number) {
-  if (number >= start && number <= end) {
-    return true
-  } else {
-    return false
-  }
+// function isNumberInRange(start, end, number) {
+//   if (number >= start && number <= end) {
+//     return true
+//   } else {
+//     return false
+//   }
+// }
+
+// console.log(isNumberInRange(10, 30, 15));
+
+// const screenWidth = 700;
+// const sm = 320;
+// const md = 768;
+// const lg = 1200;
+
+// if (screenWidth <= sm || screenWidth > md) {
+//   console.log('Mobile or Desktop screen');
+//   // у консолі буде пусто, оскільки жодна з умов не перетворилась на true
+// } else {
+//   console.log('NOooo');
+// }
+
+// function checkAccess(subType) {
+//   if (subType === 'pro' || subType === 'vip') {
+//     return true;
+//   } else {
+//     return false;
+//   }
+// }
+
+// console.log(checkAccess('vip'));
+
+// const fullName = 'Jacob Mercer';
+// console.log(fullName.slice());
+
+// function getSubstring(string, length) {
+//   return string.slice(string,length);
+// }
+
+// console.log(getSubstring('Hello world', 3));
+
+// function normalizeInput(input, to) {
+//   if (to === 'lower') {
+//     return input.toLowerCase();
+//   } else if (to === 'upper') {
+//     return input.toUpperCase();
+//   } else {
+//     return console.log('No data');
+//   }
+
+// }
+
+// console.log(normalizeInput("This ISN'T SpaM", 'upper'));
+
+function checkForName(fullName, firstName) {
+  return fullName.toLowerCase().includes(firstName.toLowerCase());
 }
 
-console.log(isNumberInRange(10, 30, 15));
+console.log(checkForName('Caty Stars', 'Andromeda'));
