@@ -80,22 +80,31 @@
 //     console.log('Non');
 // }
 
-const getSubscriptionPrice = type => {
-  let count;
-  switch (type) {
-    case 'started':
-      count = 0;
-      break;
-    case 'professional':
-      count = 20;
-      break;
-    case 'organization':
-      count = 50;
-      break;
-    default:
-      count = 'Invalid subscription type!';
-    }
-   return count;
-};
+// const getSubscriptionPrice = type => {
+//   let count;
+//   switch (type) {
+//     case 'started':
+//       count = 0;
+//       break;
+//     case 'professional':
+//       count = 20;
+//       break;
+//     case 'organization':
+//       count = 50;
+//       break;
+//     default:
+//       count = 'Invalid subscription type!';
+//     }
+//    return count;
+// };
 
-console.log(getSubscriptionPrice('started'));
+// console.log(getSubscriptionPrice('started'));
+function isNumberInRange(start, end, number) {
+  if (number >= start && number <= end) {
+    return true
+  } else {
+    return false
+  }
+}
+
+console.log(isNumberInRange(10, 30, 15));
